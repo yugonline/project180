@@ -10,7 +10,7 @@ for(i =1;i <= magic_number;i++){
 
 
 pattern = ["*","**","***","****","*****","******","*******"]; //Array declaration (Quite simple!)
-
+// Alternate For loop, iterating over each element of the Above declared Array.
 for (x in pattern){
 
     console.log(pattern[x]); // x holds the key values always. FUTURE WORK: Show x in key-value like data structures for Javascript.
