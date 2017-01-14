@@ -1,7 +1,6 @@
 //Wrapping up on types
 // Day 3 was mostly me wrapping up all data type possibilities
 // Source: Eloquent Javascript
-
 var a = 5; //Integer
 console.log(typeof a); // OUPUT: Number
 var a = 5.6; //Float
