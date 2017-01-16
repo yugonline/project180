@@ -43,10 +43,10 @@ last = function(array,n){
         return array[array.length-1];
     }
     if(n <0) {
-        n = Math.abs(n); //In Python array[-2] returns last two elements. Thats what I was looking to achieve here as well.
+        n = Math.abs(n); //In Python array[-2] returns last two elements. That's what I was looking to achieve here as well.
     }
     return array.slice(Math.max(array.length-n,0));
-}
+};
 
 console.log(last([1,2,3,4,5,6],-2));
 
