@@ -3,7 +3,8 @@
  */
 
 //Data Structures
-
+//Lots of code from Eloquent Javascript. Please do not attempt to run/understand this code without that book
+//Source: Chapter 4: Data Structures: Objects and Arrays.
 first_array = [1,2,3,4,5];
 console.log(first_array["length"]); //A perfectly correct way of calling properties in Javascript.
 
